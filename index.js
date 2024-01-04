@@ -32,3 +32,16 @@ let cajaB = duplicar(cajaA);
 
 console.log(cajaA);  // Aún es 5, no cambió
 console.log(cajaB);  // Es 10, porque la función trabajó con una copia
+// Paso por Referencia:
+
+let cajaC = ["oso", "pelota"];
+
+function agregarJuguete(lista, juguete) {
+  lista.push(juguete);
+  return lista;
+}
+
+let cajaD = agregarJuguete(cajaC, "carro");
+
+console.log(cajaC);  // Ahora es ["oso", "pelota", "carro"], cambió
+console.log(cajaD);  // También es ["oso", "pelota", "carro"], porque comparten el mismo mapa
