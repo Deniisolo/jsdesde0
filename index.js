@@ -73,3 +73,7 @@ const segundaParte='la gente de'
 const terceraParte='ðŸ‡²ðŸ‡½'
 const pensamiento=[primeraParte,segundaParte,terceraParte]
 console.log(pensamiento.join(' ðŸŒ¯ '))
+
+//Concatenación: concat()
+
+
