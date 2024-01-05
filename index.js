@@ -75,5 +75,9 @@ const pensamiento=[primeraParte,segundaParte,terceraParte]
 console.log(pensamiento.join(' ðŸŒ¯ '))
 
 //Concatenación: concat()
-
+const hobbie1='correr'
+const hobbie2='leer'
+const hobbie3='estudiar'
+const hobbies='Mis hobbies son: '.concat(hobbie1,', ',hobbie2,', ',hobbie3,'.')
+console.log(hobbies)
 
