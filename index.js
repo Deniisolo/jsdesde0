@@ -66,3 +66,10 @@ const nombre='Estefany'
 const pais='ðŸ‡¨ðŸ‡´'
 const presentacion=`Hola, soy ${nombre} de ${pais}`
 console.log(presentacion)
+
+//Concatenación: join()
+const primeraParte='Me encanta'
+const segundaParte='la gente de'
+const terceraParte='ðŸ‡²ðŸ‡½'
+const pensamiento=[primeraParte,segundaParte,terceraParte]
+console.log(pensamiento.join(' ðŸŒ¯ '))
