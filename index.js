@@ -52,3 +52,17 @@ console.log(cajaD);  // También es ["oso", "pelota", "carro"], porque comparten
 const primeraOpcion='Comillas simples' 
 const segundaOpcion="Comillas simples"
 const terceraOpcion=`Comillas simples` 
+
+// concatenación: opción +
+const direccion='Calle falsa 123'
+const ciudad='Springfield'
+const direccionCompleta='Mi dirección completa es '+direccion+ciudad
+console.log(direccionCompleta)
+const direccionCompletaConEspacio='Mi direcciÃ³n completa es '+direccion+' '+ciudad
+console.log(direccionCompletaConEspacio)
+
+// Concatenación: Template Literals
+const nombre='Estefany'
+const pais='ðŸ‡¨ðŸ‡´'
+const presentacion=`Hola, soy ${nombre} de ${pais}`
+console.log(presentacion)
