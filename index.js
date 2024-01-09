@@ -96,3 +96,8 @@ const poema='Las rosas son rojas,\n'+
 'Caracter inesperado,\n'+
 'En la lÃ­nea 86.'
 console.log(poema)
+const poema2='Las rosas son rojas,\n\
+Las violetas son azules,\n\
+Caracter inesperado,\n\
+En la lÃ­nea 86.'
+console.log(poema2)
