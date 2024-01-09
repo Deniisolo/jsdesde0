@@ -81,3 +81,13 @@ const hobbie3='estudiar'
 const hobbies='Mis hobbies son: '.concat(hobbie1,', ',hobbie2,', ',hobbie3,'.')
 console.log(hobbies)
 
+//Escape alternativo 
+const escapeAlternativo="I'm Software Engineer"
+
+//Barra invertda
+const escapeBarraInvertida='I\'m Software Engineer'
+
+//Template literals
+const escapeComillaInvertida=`I'm Software Engineer`
+
+//string Largos
