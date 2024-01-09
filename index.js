@@ -101,3 +101,8 @@ Las violetas son azules,\n\
 Caracter inesperado,\n\
 En la lÃ­nea 86.'
 console.log(poema2)
+const poema3=`Las rosas son rojas,
+Las violetas son azules,
+Caracter inesperado,
+En la lÃ­nea 86.`
+console.log(poema3)
