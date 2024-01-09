@@ -91,3 +91,8 @@ const escapeBarraInvertida='I\'m Software Engineer'
 const escapeComillaInvertida=`I'm Software Engineer`
 
 //string Largos
+const poema='Las rosas son rojas,\n'+
+'Las violetas son azules,\n'+
+'Caracter inesperado,\n'+
+'En la lÃ­nea 86.'
+console.log(poema)
