@@ -107,9 +107,12 @@
 // En la lÃ­nea 86.`
 // console.log(poema3)
 
+//string primitivo son inmutables o sea pas por valor
 const stringPrimitivo='Soy un string primitivo'
 console.log(typeof stringPrimitivo)
 const stringPrimitivoTambien=String('Soy un string primitivo tambiÃ©n')
 console.log(typeof stringPrimitivoTambien)
+
+// string objeto son mutables o sea que pasa por referencia
 const stringObjeto=new String('Soy un string objeto')
 console.log(typeof stringObjeto)
