@@ -116,3 +116,8 @@ console.log(typeof stringPrimitivoTambien)
 // string objeto son mutables o sea que pasa por referencia
 const stringObjeto=new String('Soy un string objeto')
 console.log(typeof stringObjeto)
+//Acceder a caracteres
+const saludo = 'Hola. ¿Cómo estás?' 
+//Acceder a una letra por su índice.
+console.log(saludo[2])
+console.log(saludo.charAt(2))
