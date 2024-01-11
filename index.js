@@ -122,4 +122,18 @@ console.log(typeof stringPrimitivoTambien);
 //- **`typeof`** se utiliza nuevamente para obtener el tipo de dato de la variable.
 //- Se imprime en la consola el tipo de **`stringPrimitivoTambien`**, que también debería ser "string".
 
+//Creación de un Objeto String:
+const stringObjeto = new String('Soy un string objeto');
+console.log(typeof stringObjeto);
+//- Se crea un objeto **`String`** utilizando la palabra clave **`new`**.
+//- **`typeof`** se usa para obtener el tipo de dato de la variable.
+//- Se imprime en la consola el tipo de **`stringObjeto`**, que será "object" porque es un objeto String.
+
+//Acceso y Manipulación de Caracteres en un String:
+const saludo = 'Hola. ¿Cómo estás?';
+console.log(saludo[2]);
+console.log(saludo.charAt(2));
+//- Se declara una variable **`saludo`** que contiene una cadena de texto.
+//- Se accede al tercer carácter de la cadena utilizando **`saludo[2]`** y **`saludo.charAt(2)`**.
+//- Ambas líneas imprimen el tercer carácter de **`saludo`** en la consola.
 
