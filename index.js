@@ -107,17 +107,19 @@
 // En la lÃ­nea 86.`
 // console.log(poema3)
 
-//string primitivo son inmutables o sea pas por valor
-const stringPrimitivo='Soy un string primitivo'
-console.log(typeof stringPrimitivo)
-const stringPrimitivoTambien=String('Soy un string primitivo tambiÃ©n')
-console.log(typeof stringPrimitivoTambien)
 
-// string objeto son mutables o sea que pasa por referencia
-const stringObjeto=new String('Soy un string objeto')
-console.log(typeof stringObjeto)
-//Acceder a caracteres
-const saludo = 'Hola. ¿Cómo estás?' 
-//Acceder a una letra por su índice.
-console.log(saludo[2])
-console.log(saludo.charAt(2))
+//Declaración y Tipos de Strings:
+const stringPrimitivo = 'Soy un string primitivo';
+console.log(typeof stringPrimitivo);
+//- Se declara una variable llamada **`stringPrimitivo`** y se le asigna un valor de tipo string.
+//- **`typeof`** se usa para obtener el tipo de dato de la variable.
+//- Se imprime en la consola el tipo de **`stringPrimitivo`**, que debería ser "string".
+
+// Uso del Constructor String:
+const stringPrimitivoTambien = String('Soy un string primitivo también');
+console.log(typeof stringPrimitivoTambien);
+//- Se crea otra variable llamada **`stringPrimitivoTambien`** utilizando el constructor **`String`**.
+//- **`typeof`** se utiliza nuevamente para obtener el tipo de dato de la variable.
+//- Se imprime en la consola el tipo de **`stringPrimitivoTambien`**, que también debería ser "string".
+
+
