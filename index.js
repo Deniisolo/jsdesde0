@@ -150,3 +150,9 @@ console.log(saludo.indexOf('como'));
 // Buscar y mostrar la última posición de la letra 'o' en el saludo
 console.log(saludo.lastIndexOf('o'));
 
+//Corte (Slicing) y Longitud de una Cadena:
+console.log(saludo.slice(3, 5));
+console.log(saludo.length);
+//- **`slice`** se usa para extraer una porción de la cadena desde la posición 3 hasta la posición 4 (sin incluir la posición 5).
+//- **`length`** devuelve la longitud (número de caracteres) de la cadena.
+//- Se imprimen en la consola los resultados de estas operaciones.
