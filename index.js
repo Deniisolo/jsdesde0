@@ -137,3 +137,16 @@ console.log(saludo.charAt(2));
 //- Se accede al tercer carácter de la cadena utilizando **`saludo[2]`** y **`saludo.charAt(2)`**.
 //- Ambas líneas imprimen el tercer carácter de **`saludo`** en la consola.
 
+//Búsqueda de Subcadenas:
+// Buscar y mostrar la posición de la letra 'o' en el saludo
+console.log(saludo.indexOf('o'));
+
+// Buscar y mostrar la posición de la palabra 'Cómo' en el saludo
+console.log(saludo.indexOf('Cómo'));
+
+// Buscar y mostrar la posición de la palabra 'como' en el saludo
+console.log(saludo.indexOf('como'));
+
+// Buscar y mostrar la última posición de la letra 'o' en el saludo
+console.log(saludo.lastIndexOf('o'));
+
