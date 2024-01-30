@@ -4,3 +4,5 @@ function incrementoConometro(){
     contador++;
 }
 console.log(contador)
+incrementoConometro()
+console.log(contador)
