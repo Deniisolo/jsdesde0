@@ -20,3 +20,9 @@ let number = 10;
 let texto = "10";
 let resultado = number + texto;
 console.log(resultado)
+
+
+function calculateTip (billAmount, tipPercentage){
+    console.log(billAmount * (tipPercentage / 100))
+}
+calculateTip(300, 10)
