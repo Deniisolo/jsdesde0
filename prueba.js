@@ -51,7 +51,11 @@
 
 // console.log("Hoy es " + mensaje);
 
-for (let i = 0; i < 10; i++) {
-    console.log("El valor de i es:", i);
-}
+// for (let i = 0; i < 10; i++) {
+//     console.log("El valor de i es:", i);
+// }
 
+// operadores de asignación 
+let x = 5;
+x += 10;
+console.log(x);
