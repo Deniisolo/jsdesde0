@@ -64,8 +64,22 @@
 // x += 2;
 // console.log(x);
 
-for(let i = 2; i <= 10; i += 1 ){
-    console.log("2x", i, "=", i*2 );
+// for(let i = 2; i <= 10; i += 1 ){
+//     console.log("2x", i, "=", i*2 );
+// }
+
+// *****
+
+function numberkiss(Numerodebesitos){
+    let besitos = "" 
+    for(let i = 10; i <= Numerodebesitos; i += 1){ 
+        besitos += "😘";
+    }
+    console.log(besitos)
 }
+numberkiss(2)
+
+
+
 
 
