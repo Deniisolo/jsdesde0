@@ -56,6 +56,16 @@
 // }
 
 // operadores de asignación 
-let x = 5;
-x += 10;
-console.log(x);
+// let x = 5;
+// x += 10;
+// console.log(x);
+
+// let x = 2;
+// x += 2;
+// console.log(x);
+
+for(let i = 2; i <= 10; i += 1 ){
+    console.log("2x", i, "=", i*2 );
+}
+
+
