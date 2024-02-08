@@ -85,6 +85,15 @@
 // console.log(contador)
 //Crea una variable "total" inicializada en 10. Utiliza el operador compuesto de multiplicación (*=) para multiplicar total por 5, y luego muestra el resultado.
 
-let total = 10;
-total *= 5;
-console.log(total)
+// let total = 10;
+// total *= 5;
+// console.log(total)
+// let numero1 = 2;
+// let numero2 = 2;
+// if ( numero1 > numero2){
+//     console.log("numero1 es mayor")
+// } else if( numero1 < numero2) {
+//     console.log("numero2 es mayor")
+// } else {
+//     console.log("tas locooo")
+// }
