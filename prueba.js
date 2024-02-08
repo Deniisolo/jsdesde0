@@ -70,16 +70,19 @@
 
 // *****
 
-function numberkiss(Numerodebesitos){
-    let besitos = "" 
-    for(let i = 10; i <= Numerodebesitos; i += 1){ 
-        besitos += "😘";
-    }
-    console.log(besitos)
-}
-numberkiss(2)
-
-
+// function numberkiss(Numerodebesitos){
+//     let besitos = "" 
+//     for(let i = 10; i <= Numerodebesitos; i += 1){ 
+//         besitos += "😘";
+//     }
+//     console.log(besitos)
+// }
+// numberkiss(2)
+//Operadores de Asignación
+ //Crea una variable contador inicializada en 5. Utiliza el operador de incremento para incrementar su valor en 3 y luego muestra el resultado.
+let contador = 5;
+contador += 3;
+console.log(contador)
 
 
 
