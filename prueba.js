@@ -80,9 +80,11 @@
 // numberkiss(2)
 //Operadores de Asignación
  //Crea una variable contador inicializada en 5. Utiliza el operador de incremento para incrementar su valor en 3 y luego muestra el resultado.
-let contador = 5;
-contador += 3;
-console.log(contador)
+// let contador = 5;
+// contador += 3;
+// console.log(contador)
+//Crea una variable "total" inicializada en 10. Utiliza el operador compuesto de multiplicación (*=) para multiplicar total por 5, y luego muestra el resultado.
 
-
-
+let total = 10;
+total *= 5;
+console.log(total)
