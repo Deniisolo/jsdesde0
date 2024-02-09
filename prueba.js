@@ -97,3 +97,18 @@
 // } else {
 //     console.log("tas locooo")
 // }
+
+
+// let numero1 = 4;
+// let numero2 = 3;
+// let numero3 = 10;
+// if ( numero1 > numero2){
+//     console.log("numero1 es mayor")
+// } else if( numero1 < numero2) {
+//     console.log("numero2 es mayor")    
+// }
+// else if( numero1 < numero3) {
+//     console.log("numero3 es mayor")
+// }else {
+//     console.log("tas locooo")
+// }
