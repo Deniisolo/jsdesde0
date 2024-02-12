@@ -7,20 +7,19 @@
 // incrementoConometro()
 // console.log(contador)
 
-// // OPERDORES lOGICOS 
+// // OPERDORES lOGICOS
 
 // let condicion1 = true;
 // let condicion2 = true;
 
 // let resultadoAnd = condicion1 && condicion2;
-// console.log(resultadoAnd); 
+// console.log(resultadoAnd);
 
 // // Coerción
 // let number = 10;
 // let texto = "10";
 // let resultado = number + texto;
 // console.log(resultado)
-
 
 // function calculateTip (billAmount, tipPercentage){
 //     console.log(billAmount * (tipPercentage / 100))
@@ -30,7 +29,7 @@
 // let diaSemana = 5;
 // let mensaje;
 // switch (diaSemana) {
-//     case 1: 
+//     case 1:
 //     mensaje = "Lunes";
 //     break;
 //     case 2:
@@ -55,7 +54,7 @@
 //     console.log("El valor de i es:", i);
 // }
 
-// operadores de asignación 
+// operadores de asignación
 // let x = 5;
 // x += 10;
 // console.log(x);
@@ -71,15 +70,15 @@
 // *****
 
 // function numberkiss(Numerodebesitos){
-//     let besitos = "" 
-//     for(let i = 10; i <= Numerodebesitos; i += 1){ 
+//     let besitos = ""
+//     for(let i = 10; i <= Numerodebesitos; i += 1){
 //         besitos += "😘";
 //     }
 //     console.log(besitos)
 // }
 // numberkiss(2)
 //Operadores de Asignación
- //Crea una variable contador inicializada en 5. Utiliza el operador de incremento para incrementar su valor en 3 y luego muestra el resultado.
+//Crea una variable contador inicializada en 5. Utiliza el operador de incremento para incrementar su valor en 3 y luego muestra el resultado.
 // let contador = 5;
 // contador += 3;
 // console.log(contador)
@@ -98,31 +97,29 @@
 //     console.log("tas locooo")
 // }
 
-
 // let numero1 = 4;
 // let numero2 = 3;
 // let numero3 = 10;
 // if ( numero1 > numero2){
 //     console.log("numero1 es mayor")
 // } else if( numero1 < numero2) {
-//     console.log("numero2 es mayor")    
+//     console.log("numero2 es mayor")
 // }
 // else if( numero1 < numero3) {
 //     console.log("numero3 es mayor")
 // }else {
 //     console.log("tas locooo")
 // }
-function encontrarMayor(numero1, numero2, numero3)
-{
-    if (numero1 > numero2 && numero1 > numero3) {
-        return numero1;
-    } else if (numero2 > numero1 && numero2 > numero3) {
-        return numero2;
-    } else if (numero3 > numero1 && numero3 > numero2) {
-        return numero3;
-    } else {
-        return "tas locooo"; 
-}
+function encontrarMayor(numero1, numero2, numero3) {
+  if (numero1 > numero2 && numero1 > numero3) {
+    return numero1;
+  } else if (numero2 > numero1 && numero2 > numero3) {
+    return numero2;
+  } else if (numero3 > numero1 && numero3 > numero2) {
+    return numero3;
+  } else {
+    return "tas locooo";
+  }
 }
 let numero1 = 1;
 let numero2 = 3;
