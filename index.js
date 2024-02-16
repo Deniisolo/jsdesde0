@@ -177,3 +177,15 @@ function sumaNumerosPares(numero) {
   
   console.log(factorial(5)); // Debería imprimir 120 (5 * 4 * 3 * 2 * 1)
   
+  console.log(sumaNumerosPares(10)); // Debería imprimir 30 (2 + 4 + 6 + 8 + 10)
+
+  function factorial(numero) {
+    if (numero === 0 || numero === 1) {
+      return 1;
+    } else {
+      return numero * factorial(numero - 1);
+    }
+  }
+  
+  console.log(factorial(5)); // Debería imprimir 120 (5 * 4 * 3 * 2 * 1)
+  
