@@ -156,3 +156,13 @@ console.log(saludo.length);
 //- **`slice`** se usa para extraer una porción de la cadena desde la posición 3 hasta la posición 4 (sin incluir la posición 5).
 //- **`length`** devuelve la longitud (número de caracteres) de la cadena.
 //- Se imprimen en la consola los resultados de estas operaciones.
+
+function sumaNumerosPares(numero) {
+    let suma = 0;
+    for (let i = 2; i <= numero; i += 2) {
+      suma += i;
+    }
+    return suma;
+  }
+  
+  console.log(sumaNumerosPares(10)); // Debería imprimir 30 (2 + 4 + 6 + 8 + 10)
