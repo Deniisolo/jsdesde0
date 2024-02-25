@@ -110,19 +110,37 @@
 // }else {
 //     console.log("tas locooo")
 // }
-function encontrarMayor(numero1, numero2, numero3) {
-  if (numero1 > numero2 && numero1 > numero3) {
-    return numero1;
-  } else if (numero2 > numero1 && numero2 > numero3) {
-    return numero2;
-  } else if (numero3 > numero1 && numero3 > numero2) {
-    return numero3;
-  } else {
-    return "tas locooo";
-  }
-}
-let numero1 = 1;
-let numero2 = 3;
-let numero3 = 2;
-let mayor = encontrarMayor(numero1, numero2, numero3);
-console.log("El número mayor es:", mayor);
+// function encontrarMayor(numero1, numero2, numero3) {
+//   if (numero1 > numero2 && numero1 > numero3) {
+//     return numero1;
+//   } else if (numero2 > numero1 && numero2 > numero3) {
+//     return numero2;
+//   } else if (numero3 > numero1 && numero3 > numero2) {
+//     return numero3;
+//   } else {
+//     return "tas locooo";
+//   }
+// }
+// let numero1 = 1;
+// let numero2 = 3;
+// let numero3 = 2;
+// let mayor = encontrarMayor(numero1, numero2, numero3);
+// console.log("El número mayor es:", mayor);
+// function contarCaracteresExcluyendoEspaciosYPuntuacion(texto) {
+//   const caracteresExcluidos = ['.', ',', ';', ':', '¿', '?', '!', '"', '-', '(', ')', '[', ']', '/'];
+//   let contador = 0;
+
+//   for (let i = 0; i < texto.length; i++) {
+//     const caracter = texto[i];
+//     if (caracter !== ' ' && !caracteresExcluidos.includes(caracter)) {
+//       contador++;
+//     }
+//   }
+
+//   return contador;
+// }
+
+// // Ejemplo de uso:
+// const texto = "¡Hola, mundo! ¿Cómo estás?";
+// const recuento = contarCaracteresExcluyendoEspaciosYPuntuacion(texto);
+// console.log("Recuento de caracteres excluyendo espacios y signos de puntuación:", recuento);
