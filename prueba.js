@@ -126,8 +126,29 @@
 // let numero3 = 2;
 // let mayor = encontrarMayor(numero1, numero2, numero3);
 // console.log("El número mayor es:", mayor);
+<<<<<<< HEAD
 let miArray =[1,2,3,4,5];
 
 for(let i= 0; i < miArray.length; i++){
   console.log(miArray[i]);
 }
+=======
+// function contarCaracteresExcluyendoEspaciosYPuntuacion(texto) {
+//   const caracteresExcluidos = ['.', ',', ';', ':', '¿', '?', '!', '"', '-', '(', ')', '[', ']', '/'];
+//   let contador = 0;
+
+//   for (let i = 0; i < texto.length; i++) {
+//     const caracter = texto[i];
+//     if (caracter !== ' ' && !caracteresExcluidos.includes(caracter)) {
+//       contador++;
+//     }
+//   }
+
+//   return contador;
+// }
+
+// // Ejemplo de uso:
+// const texto = "¡Hola, mundo! ¿Cómo estás?";
+// const recuento = contarCaracteresExcluyendoEspaciosYPuntuacion(texto);
+// console.log("Recuento de caracteres excluyendo espacios y signos de puntuación:", recuento);
+>>>>>>> 02e939f99331a9168cccf0f0563772976eef3822
