@@ -110,19 +110,24 @@
 // }else {
 //     console.log("tas locooo")
 // }
-function encontrarMayor(numero1, numero2, numero3) {
-  if (numero1 > numero2 && numero1 > numero3) {
-    return numero1;
-  } else if (numero2 > numero1 && numero2 > numero3) {
-    return numero2;
-  } else if (numero3 > numero1 && numero3 > numero2) {
-    return numero3;
-  } else {
-    return "tas locooo";
-  }
+// function encontrarMayor(numero1, numero2, numero3) {
+//   if (numero1 > numero2 && numero1 > numero3) {
+//     return numero1;
+//   } else if (numero2 > numero1 && numero2 > numero3) {
+//     return numero2;
+//   } else if (numero3 > numero1 && numero3 > numero2) {
+//     return numero3;
+//   } else {
+//     return "tas locooo";
+//   }
+// }
+// let numero1 = 1;
+// let numero2 = 3;
+// let numero3 = 2;
+// let mayor = encontrarMayor(numero1, numero2, numero3);
+// console.log("El número mayor es:", mayor);
+let miArray =[1,2,3,4,5];
+
+for(let i= 0; i < miArray.length; i++){
+  console.log(miArray[i]);
 }
-let numero1 = 1;
-let numero2 = 3;
-let numero3 = 2;
-let mayor = encontrarMayor(numero1, numero2, numero3);
-console.log("El número mayor es:", mayor);
