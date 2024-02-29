@@ -157,35 +157,35 @@ console.log(saludo.length);
 //- **`length`** devuelve la longitud (número de caracteres) de la cadena.
 //- Se imprimen en la consola los resultados de estas operaciones.
 
-function sumaNumerosPares(numero) {
-    let suma = 0;
-    for (let i = 2; i <= numero; i += 2) {
-      suma += i;
-    }
-    return suma;
-  }
+// function sumaNumerosPares(numero) {
+//     let suma = 0;
+//     for (let i = 2; i <= numero; i += 2) {
+//       suma += i;
+//     }
+//     return suma;
+//   }
   
-  console.log(sumaNumerosPares(10)); // Debería imprimir 30 (2 + 4 + 6 + 8 + 10)
+//   console.log(sumaNumerosPares(10)); // Debería imprimir 30 (2 + 4 + 6 + 8 + 10)
 
-  function factorial(numero) {
-    if (numero === 0 || numero === 1) {
-      return 1;
-    } else {
-      return numero * factorial(numero - 1);
-    }
-  }
+//   function factorial(numero) {
+//     if (numero === 0 || numero === 1) {
+//       return 1;
+//     } else {
+//       return numero * factorial(numero - 1);
+//     }
+//   }
   
-  console.log(factorial(5)); // Debería imprimir 120 (5 * 4 * 3 * 2 * 1)
+//   console.log(factorial(5)); // Debería imprimir 120 (5 * 4 * 3 * 2 * 1)
   
-  console.log(sumaNumerosPares(10)); // Debería imprimir 30 (2 + 4 + 6 + 8 + 10)
+//   console.log(sumaNumerosPares(10)); // Debería imprimir 30 (2 + 4 + 6 + 8 + 10)
 
-  function factorial(numero) {
-    if (numero === 0 || numero === 1) {
-      return 1;
-    } else {
-      return numero * factorial(numero - 1);
-    }
-  }
+//   function factorial(numero) {
+//     if (numero === 0 || numero === 1) {
+//       return 1;
+//     } else {
+//       return numero * factorial(numero - 1);
+//     }
+//   }
   
-  console.log(factorial(5)); // Debería imprimir 120 (5 * 4 * 3 * 2 * 1)
+//   console.log(factorial(5)); // Debería imprimir 120 (5 * 4 * 3 * 2 * 1)
   
