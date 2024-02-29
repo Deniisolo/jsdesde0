@@ -126,13 +126,13 @@
 // let numero3 = 2;
 // let mayor = encontrarMayor(numero1, numero2, numero3);
 // console.log("El número mayor es:", mayor);
-<<<<<<< HEAD
-let miArray =[1,2,3,4,5];
+//  HEAD
+// let miArray =[1,2,3,4,5];
 
-for(let i= 0; i < miArray.length; i++){
-  console.log(miArray[i]);
-}
-=======
+// for(let i= 0; i < miArray.length; i++){
+//   console.log(miArray[i]);
+// }
+
 // function contarCaracteresExcluyendoEspaciosYPuntuacion(texto) {
 //   const caracteresExcluidos = ['.', ',', ';', ':', '¿', '?', '!', '"', '-', '(', ')', '[', ']', '/'];
 //   let contador = 0;
@@ -151,4 +151,15 @@ for(let i= 0; i < miArray.length; i++){
 // const texto = "¡Hola, mundo! ¿Cómo estás?";
 // const recuento = contarCaracteresExcluyendoEspaciosYPuntuacion(texto);
 // console.log("Recuento de caracteres excluyendo espacios y signos de puntuación:", recuento);
->>>>>>> 02e939f99331a9168cccf0f0563772976eef3822
+getWordCount: (text) => {
+  //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
+  const word = text.split(" ");
+  //no tener en cuenta el " "
+  let count = 0;
+  for (let i = 0; i < word.length; i++) {
+    if (word[i] !== "") {
+      count++;
+    }
+  }
+  return count;
+}
