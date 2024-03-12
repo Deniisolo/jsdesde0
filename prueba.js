@@ -151,17 +151,31 @@
 // const texto = "¡Hola, mundo! ¿Cómo estás?";
 // const recuento = contarCaracteresExcluyendoEspaciosYPuntuacion(texto);
 // console.log("Recuento de caracteres excluyendo espacios y signos de puntuación:", recuento);
-getWordCount: (text) => {
-  //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
-  const word = text.split(" ");
-  //no tener en cuenta el " "
-  let count = 0;
-  for (let i = 0; i < word.length; i++) {
-    if (word[i] !== "") {
-      count++;
-    }
-  }
-  return count;
-}
+// getWordCount: (text) => {
+//   //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
+//   const word = text.split(" ");
+//   //no tener en cuenta el " "
+//   let count = 0;
+//   for (let i = 0; i < word.length; i++) {
+//     if (word[i] !== "") {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
 
-// hola como estan 
+// hola como estan
+
+//Warmup-1 -- intMax
+function intMax(a, b, c) {
+  if (a > b && a > c) {
+    return a;
+  } else if (b > c && b > a) {
+    return b;
+  } else if (c > a && c > b) {
+    return c;
+  } else{
+    return "hola"
+  }
+}
+console.log(intMax(3, 1, 4));
