@@ -180,7 +180,18 @@
 // }
 // console.log(intMax(3, 1, 4));
 // String 1 Hello word
-function helloword(name){
-  return "Hello " + name + "!" 
+// function helloword(name){
+//   return "Hello " + name + "!" 
+// }
+// console.log(helloword("Denis"))
+function intMax(a,b, c){
+  if (a > b && a > c ){
+    return a
+  }else if(b > a && b > c ) {
+    return b
+  } else if (c > a && c > b){
+    return c
+  }
+  return
 }
-console.log(helloword("Denis"))
+console.log(intMax(1, 2, 3))
