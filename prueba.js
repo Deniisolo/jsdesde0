@@ -167,15 +167,20 @@
 // hola como estan
 
 //Warmup-1 -- intMax
-function intMax(a, b, c) {
-  if (a > b && a > c) {
-    return a;
-  } else if (b > c && b > a) {
-    return b;
-  } else if (c > a && c > b) {
-    return c;
-  } else{
-    return "hola"
-  }
+// function intMax(a, b, c) {
+//   if (a > b && a > c) {
+//     return a;
+//   } else if (b > c && b > a) {
+//     return b;
+//   } else if (c > a && c > b) {
+//     return c;
+//   } else {
+//     return "hola";
+//   }
+// }
+// console.log(intMax(3, 1, 4));
+// String 1 Hello word
+function helloword(name){
+  return "Hello " + name + "!" 
 }
-console.log(intMax(3, 1, 4));
+console.log(helloword("Denis"))
