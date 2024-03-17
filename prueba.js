@@ -184,14 +184,24 @@
 //   return "Hello " + name + "!" 
 // }
 // console.log(helloword("Denis"))
-function intMax(a,b, c){
-  if (a > b && a > c ){
-    return a
-  }else if(b > a && b > c ) {
-    return b
-  } else if (c > a && c > b){
-    return c
-  }
-  return
-}
-console.log(intMax(1, 2, 3))
+// function intMax(a,b, c){
+//   if (a > b && a > c ){
+//     return a
+//   }else if(b > a && b > c ) {
+//     return b
+//   } else if (c > a && c > b){
+//     return c
+//   }
+//   return
+// }
+// console.log(intMax(1, 2, 3))
+// Imagina que estos son los números escritos en tus hojas de papel
+const numerosEnHojas = [2, 4, 6, 8, 10];
+
+// Queremos encontrar la suma total de todos estos números
+const sumaTotal = numerosEnHojas.reduce(function(acumulador, numeroActual) {
+  return acumulador + numeroActual;
+}, );
+
+// Ahora 'sumaTotal' contiene la suma total de todos los números en las hojas de papel
+console.log(sumaTotal); // Esto imprimirá 30
