@@ -181,7 +181,7 @@
 // console.log(intMax(3, 1, 4));
 // String 1 Hello word
 // function helloword(name){
-//   return "Hello " + name + "!" 
+//   return "Hello " + name + "!"
 // }
 // console.log(helloword("Denis"))
 // function intMax(a,b, c){
@@ -195,13 +195,20 @@
 //   return
 // }
 // console.log(intMax(1, 2, 3))
+
+// REDUCE MÉTODO
 // Imagina que estos son los números escritos en tus hojas de papel
-const numerosEnHojas = [2, 4, 6, 8, 10];
+// const numerosEnHojas = [2, 4, 6, 8, 10];
 
-// Queremos encontrar la suma total de todos estos números
-const sumaTotal = numerosEnHojas.reduce(function(acumulador, numeroActual) {
-  return acumulador + numeroActual;
-}, );
+//Queremos encontrar la suma total de todos estos números
+// const sumaTotal = numerosEnHojas.reduce(function(acumulador, numeroActual) {
+//   return acumulador + numeroActual;
+// }, );
 
-// Ahora 'sumaTotal' contiene la suma total de todos los números en las hojas de papel
-console.log(sumaTotal); // Esto imprimirá 30
+//  Ahora 'sumaTotal' contiene la suma total de todos los números en las hojas de papel
+// console.log(sumaTotal); // Esto imprimirá 30
+function noSpace(x) {
+  const cadenaNoSpace = x.split(" ").join("");
+  return cadenaNoSpace;
+}
+console.log(noSpace("hols como estasd bb"));
