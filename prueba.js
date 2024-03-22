@@ -207,8 +207,15 @@
 
 //  Ahora 'sumaTotal' contiene la suma total de todos los números en las hojas de papel
 // console.log(sumaTotal); // Esto imprimirá 30
-function noSpace(x) {
-  const cadenaNoSpace = x.split(" ").join("");
-  return cadenaNoSpace;
+// function noSpace(x) {
+//   const cadenaNoSpace = x.split(" ").join("");
+//   return cadenaNoSpace;
+// }
+// console.log(noSpace("hols como estasd bb"));
+function biggerTwo(a, b){
+  if (a[0] + a[1] >= b[0] + b[1]) {
+    return a
+    }else{
+    return b
+  }  
 }
-console.log(noSpace("hols como estasd bb"));
