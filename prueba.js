@@ -212,10 +212,21 @@
 //   return cadenaNoSpace;
 // }
 // console.log(noSpace("hols como estasd bb"));
-function biggerTwo(a, b){
-  if (a[0] + a[1] >= b[0] + b[1]) {
-    return a
-    }else{
-    return b
-  }  
+// function biggerTwo(a, b){
+//   if (a[0] + a[1] >= b[0] + b[1]) {
+//     return a
+//     }else{
+//     return b
+//   }  
+// }
+function redTicket(a, b, c){
+  if(a == 2 && b == 2 && c == 2){
+    return 10
+  } else if(a == b && c == b && a == c){
+  return 5
+  } else if (b !== a && c !== a){
+  return 1
+  } else {
+  return 0
+  }
 }
