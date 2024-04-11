@@ -144,3 +144,5 @@
 // const texto = "¡Hola, mundo! ¿Cómo estás?";
 // const recuento = contarCaracteresExcluyendoEspaciosYPuntuacion(texto);
 // console.log("Recuento de caracteres excluyendo espacios y signos de puntuación:", recuento);
+
+
