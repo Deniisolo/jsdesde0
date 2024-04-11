@@ -145,4 +145,20 @@
 // const recuento = contarCaracteresExcluyendoEspaciosYPuntuacion(texto);
 // console.log("Recuento de caracteres excluyendo espacios y signos de puntuación:", recuento);
 
+//PROMESAS
+const cows = 9;
+
+const countCows = new Promise(function (resolve, reject) {
+  if (cows > 10) {
+    resolve(`we have ${cows} cows on the farm`);
+  } else {
+    reject("there is no cows on the farm");
+  }
+});
+
+countCows.then((result) => {
+    console.log(result);
+}).catch((Error)=> {
+    console.log(Error);
+}).finally(() => console.log (''))
 
