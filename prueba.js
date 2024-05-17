@@ -146,19 +146,34 @@
 // console.log("Recuento de caracteres excluyendo espacios y signos de puntuación:", recuento);
 
 //PROMESAS
-const cows = 9;
+// const cows = 9;
 
-const countCows = new Promise(function (resolve, reject) {
-  if (cows > 10) {
-    resolve(`we have ${cows} cows on the farm`);
-  } else {
-    reject("there is no cows on the farm");
+// const countCows = new Promise(function (resolve, reject) {
+//   if (cows > 10) {
+//     resolve(`we have ${cows} cows on the farm`);
+//   } else {
+//     reject("there is no cows on the farm");
+//   }
+// });
+
+// countCows.then((result) => {
+//     console.log(result);
+// }).catch((Error)=> {
+//     console.log(Error);
+// }).finally(() => console.log (''))
+
+//I'm new to coding and now I want to get the sum of two arrays... Actually the sum of all their elements. I'll appreciate for your help.
+
+//P.S. Each array includes only integer numbers. Output is a number too.
+
+//https://www.codewars.com/kata/5a2be17aee1aaefe2a000151/train/javascript
+function arrayPlusArray(arr1, arr2) {
+  let sumArray =0;
+  for (let i = 0; i < arr1.length; i++){
+    sumArray += arr1[i];
   }
-});
-
-countCows.then((result) => {
-    console.log(result);
-}).catch((Error)=> {
-    console.log(Error);
-}).finally(() => console.log (''))
-
+    for (let i = 0; i < arr2.length; i++){
+    sumArray += arr2[i];
+  }
+  return sumArray;
+}
