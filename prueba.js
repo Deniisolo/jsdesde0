@@ -167,13 +167,78 @@
 //P.S. Each array includes only integer numbers. Output is a number too.
 
 //https://www.codewars.com/kata/5a2be17aee1aaefe2a000151/train/javascript
-function arrayPlusArray(arr1, arr2) {
-  let sumArray =0;
-  for (let i = 0; i < arr1.length; i++){
-    sumArray += arr1[i];
-  }
-    for (let i = 0; i < arr2.length; i++){
-    sumArray += arr2[i];
-  }
-  return sumArray;
-}
+// function arrayPlusArray(arr1, arr2) {
+//   let sumArray =0;
+//   for (let i = 0; i < arr1.length; i++){
+//     sumArray += arr1[i];
+//   }
+//     for (let i = 0; i < arr2.length; i++){
+//     sumArray += arr2[i];
+//   }
+//   return sumArray;
+// }
+
+// let str = "Hola MUNDO";
+// console.log(str.toUpperCase()); // "hola mundo"
+
+// let str = "Hola Mundo";
+// console.log(str.substr(5, 2)); // "Mundo"
+
+// let str = "Hola Mundo Mundo";
+// console.log(str.lastIndexOf("Mundo")); // 11
+// let str = "Hola mundo que mas pues";
+// console.log(str.replaceAll("m", "Amigo")); // "Hola Amigo"
+
+
+// If you can't sleep, just count sheep!!
+//Task:
+//Given a non-negative integer, 3 for example, 
+//return a string with a murmur: "1 sheep...2 sheep...3 sheep...". 
+//Input will always be valid, i.e. no negative integers.
+
+// var countSheep = function (num){
+//     //your code here
+//     let result  = "";
+//     for (let i = 1; i <= num; i++) {
+//       result += `${i} sheep...`;
+//     }
+//     return result;
+//   }
+// function rentalCarCost(d) {
+//   let costDay = 40;
+//    let totalCostCard = d * costDay;
+   
+//    if (d >= 7){
+//   totalCostCard -= 50;
+     
+//    } else  if (d >= 3){
+//     totalCostCard -= 20;
+//    }
+//    return totalCostCard
+//  }
+//  console.log(rentalCarCost(10))
+
+//https://www.codewars.com/kata/6512c786a07f6a000fe7a274/train/javascript
+// function findGlasses(arr) {
+//   for (let index = 0; index < arr.length; index++) {
+//     let item = arr[index];
+//     let foundO = false;
+//     let dashCount = 0;
+
+//     for (let i = 0; i < item.length; i++) {
+//       if (item[i] === 'O') {
+//         if (foundO && dashCount > 0) {
+//           return index;
+//         }
+//         foundO = true;
+//         dashCount = 0; 
+//       } else if (foundO && item[i] === '-') {
+//         dashCount++;
+//       } else if (foundO) {
+//         foundO = false;
+//         dashCount = 0;
+//       }
+//     }
+//   }
+//   return -1; 
+// }
